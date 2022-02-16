@@ -10,6 +10,7 @@ $json_data = json_decode($json_file,true);
 <!DOCTYPE html>
 <html lang = "en" dir="ltr">
    <!-- Name -->
+   <h1> Fucking test </h1>
 <h1>
     <?php echo $json_data['first-name']; ?>
     <span class="text-primary"><?php echo $json_data['last-name']; ?></span>
