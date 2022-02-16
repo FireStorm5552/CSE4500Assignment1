@@ -9,7 +9,7 @@ $json_data = json_decode($json_file,true);
 ?>
 
 <html>
-   <!-- Name --!>
+   <!-- Name -->
 <h1>
     <?php echo $json_data['first-name']; ?>
     <span class="text-primary"><?php echo $json_data['last-name']; ?></span>
