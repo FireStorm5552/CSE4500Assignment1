@@ -104,11 +104,7 @@ $json_data = json_decode($json_file,true);
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <h3 class="mb-0"><?php echo $interests['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $interests; ?></div>
-                  <p><?php echo $interests['description']; ?></p>
-                </div>
-                <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                  <div class="subheading mb-3"><?php echo $interests['interest']; ?></div>
                 </div>
               </div>
           <?php  } ?>
