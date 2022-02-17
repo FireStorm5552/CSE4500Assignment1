@@ -25,6 +25,8 @@ $json_data = json_decode($json_file,true);
           <a class="nav-link" href="#about">About</a>
           <a class="nav-link" href="#education">Education</a>
           <a class="nav-link" href="#experience">Experience</a>
+          <a class="nav-link" href="#experience">Skills</a>
+          <a class="nav-link" href="#experience">Interests</a>
         </nav>
       </nav>
     </div>
