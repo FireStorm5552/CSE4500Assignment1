@@ -21,22 +21,22 @@
   ],
     "education":[
     {
-      "school": "CSUSB",
-      "Degree": "B.S. in Computer Science",
-      "Date": "Expected Spring 2023"
+      "school": "School2",
+      "Degree": "Degree1",
+      "Date": "Date1"
     },
     {
-      "school": "Cajon High School",
-      "Degree": "High School Diploma",
-      "Date": "June 2018"
+      "school": "School2",
+      "Degree": "Degree2",
+      "Date": "Date2"
     }
   ],
   "skills":[
-    {"skill": "Knowledge of C++"},
-    {"skill": "Filler1"},
-    {"skill": "Filler2"}
+    {"skill": "Skill1"},
+    {"skill": "Skill2"},
+    {"skill": "Skill3"}
   ],
   "interests":[
-    {"interest":"Video Games"}
+    {"interest":"Interest1"}
   ]
 }
