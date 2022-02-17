@@ -33,14 +33,14 @@
   ],
   "skills":[
     {
-      "Knowledge of C++",
-      "Filler1",
-      "Filler2"
+      "skill1": "Knowledge of C++",
+      "skill2": "Filler1",
+      "skill3": "Filler2"
     }
   ],
   "interests":[
     {
-      "Video Games"
+      "interest1": "Video Games"
     }
   ]
 }
