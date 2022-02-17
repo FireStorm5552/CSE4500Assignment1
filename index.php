@@ -95,6 +95,7 @@ $json_data = json_decode($json_file,true);
       <div id="interests" class="content-item">
         <div class="vertical-center">
           <h2>Interests</h2>
+                    <?php foreach($json_data['interests'] AS $interests) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
                   <div class="subheading mb-3"><?php echo $interests['interest']; ?></div>
