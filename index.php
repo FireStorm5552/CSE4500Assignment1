@@ -49,9 +49,9 @@ $json_data = json_decode($json_file,true);
           <?php foreach($json_data['education'] AS $education) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $education['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $education['employer']; ?></div>
-                  <p><?php echo $education['description']; ?></p>
+                  <h3 class="mb-0"><?php echo $education['Degree']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $education['Date']; ?></div>
+                  <p><?php echo $education['school']; ?></p>
                 </div>
                 <div class="flex-shrink-0">
                   <span class="text-primary"><?php echo $education['period']; ?></span>
