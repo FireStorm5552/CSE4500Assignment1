@@ -32,11 +32,11 @@
     }
   ],
   "skills":[
-      "skill" :"Knowledge of C++",
-      "skill" :"Filler1",
-      "skill" :"Filler2"
+      "Knowledge of C++",
+      "Filler1",
+      "Filler2"
   ],
   "interests":[
-      "interest" :"Video Games"
+      "Video Games"
   ]
 }
