@@ -21,44 +21,26 @@
   ],
     "education":[
     {
-      "title":"WEB DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - Present",
-      "description":"A description of your experience with this job."
+      "school": "CSUSB",
+      "Degree": "B.S. in Computer Science",
+      "Date": "Expected Spring 2023"
     },
     {
-      "title":"APPLICATION DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "school": "Cajon High School",
+      "Degree": "High School Diploma",
+      "Date": "June 2018"
     }
   ],
   "skills":[
     {
-      "title":"WEB DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - Present",
-      "description":"A description of your experience with this job."
-    },
-    {
-      "title":"APPLICATION DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "Knowledge of C++",
+      "Filler1",
+      "Filler2"
     }
   ],
   "interests":[
     {
-      "title":"WEB DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - Present",
-      "description":"A description of your experience with this job."
-    },
-    {
-      "title":"APPLICATION DEVELOPER",
-      "employer":"CSUSB",
-      "period":"March 2018 - 2021",
-      "description":"A description of your experience with this job."
+      "Video Games"
     }
   ]
 }
