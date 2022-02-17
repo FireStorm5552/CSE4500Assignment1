@@ -44,7 +44,18 @@ $json_data = json_decode($json_file,true);
       <div id="education" class="content-item">
         <div class="vertical-center">
           <h2>Education</h2>
-          <p>...</p>
+          <?php foreach($json_data['education'] AS $education) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $education['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $education['employer']; ?></div>
+                  <p><?php echo $education['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $education['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
         </div>
       </div>
       <hr>
@@ -57,6 +68,42 @@ $json_data = json_decode($json_file,true);
                   <h3 class="mb-0"><?php echo $experience['title']; ?></h3>
                   <div class="subheading mb-3"><?php echo $experience['employer']; ?></div>
                   <p><?php echo $experience['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $experience['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
+        </div>
+      </div>
+      <hr>
+      <div id="skills" class="content-item">
+        <div class="vertical-center">
+          <h2>Experience</h2>
+          <?php foreach($json_data['skills'] AS $skills) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $skills['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $skills['employer']; ?></div>
+                  <p><?php echo $skills['description']; ?></p>
+                </div>
+                <div class="flex-shrink-0">
+                  <span class="text-primary"><?php echo $skills['period']; ?></span>
+                </div>
+              </div>
+          <?php  } ?>
+        </div>
+      </div>
+      <hr>
+      <div id="interests" class="content-item">
+        <div class="vertical-center">
+          <h2>Experience</h2>
+          <?php foreach($json_data['interests'] AS $interests) { ?>
+              <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="flex-grow-1">
+                  <h3 class="mb-0"><?php echo $interests['title']; ?></h3>
+                  <div class="subheading mb-3"><?php echo $interests['employer']; ?></div>
+                  <p><?php echo $interests['description']; ?></p>
                 </div>
                 <div class="flex-shrink-0">
                   <span class="text-primary"><?php echo $experience['period']; ?></span>
