@@ -85,12 +85,7 @@ $json_data = json_decode($json_file,true);
           <?php foreach($json_data['skills'] AS $skills) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $skills['title']; ?></h3>
-                  <div class="subheading mb-3"><?php echo $skills['employer']; ?></div>
-                  <p><?php echo $skills['description']; ?></p>
-                </div>
-                <div class="flex-shrink-0">
-                  <span class="text-primary"><?php echo $skills['period']; ?></span>
+                  <div class="subheading mb-3"><?php echo $skills['skill']; ?></div>
                 </div>
               </div>
           <?php  } ?>
@@ -100,10 +95,8 @@ $json_data = json_decode($json_file,true);
       <div id="interests" class="content-item">
         <div class="vertical-center">
           <h2>Interests</h2>
-          <?php foreach($json_data['interests'] AS $interests) { ?>
               <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div class="flex-grow-1">
-                  <h3 class="mb-0"><?php echo $interests['title']; ?></h3>
                   <div class="subheading mb-3"><?php echo $interests['interest']; ?></div>
                 </div>
               </div>
